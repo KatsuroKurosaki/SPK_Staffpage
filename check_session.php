@@ -1,5 +1,5 @@
 <?php
-if(isset($_REQUEST['s'])){
+/*if(isset($_REQUEST['s'])){
 	$sesscad = date('Y-m-d H:i:s');
 	$sql = "SELECT web_session_staff.id_mc_player, mc_players.playername, mc_players.uuid, mc_ranks.staff_perms
 	FROM web_session_staff
@@ -37,5 +37,4 @@ if(isset($_REQUEST['s'])){
 		die();
 	}
 	unset($sesscad);
-}
-?>
+}*/
