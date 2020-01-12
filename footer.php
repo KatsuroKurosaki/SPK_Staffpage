@@ -1,6 +1,5 @@
-		<footer class="footer">
-			<div class="container text-center">
-				<span class="muted credit">&copy; S.P.K. <?php echo date('Y'); ?> :: SPK Staff Page versión <?php echo _WWWSTAFFVER; ?></span>
-			</div>
-		</footer>
-		
+<footer class="footer bg-light fixed-bottom py-2">
+	<div class="container">
+		<span class="text-muted small">&copy; S.P.K. Fénix <?= date('Y') ?></span>
+	</div>
+</footer>
